@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "humanvillagers",
+  "version": "${version}",
+  "name": "Aldeanos Humanos",
+  "description": "Los aldeanos tienen nombre, personalidad, memoria de amistad y conversan contigo.",
+  "authors": ["Tu nombre"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": { "main": ["com.humanvillagers.HumanVillagers"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
